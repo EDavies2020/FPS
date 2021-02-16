@@ -43,48 +43,67 @@
             <img class="img-fluid" src="assets/images/fps-logo.png" alt="company logo">
         </div>
     </div>  
-<!--our projects-->
+<!--our projects header-->
     <div class="row no-gutters">
         <div class="col-12">
             <h4>Our projects...</h4>
         </div>
     </div>
+<!--our project details-->    
     <div class="row">
-  <div class="column">
-    <img src="assets/images/projectimages/als1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-</div>
+        <div class="col-md-6 project-details">
+            <img src="assets/images/projectimages/als1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                            <div class="mySlides">
+                                <div class="pictext">text</div>
+                                <img src="assets/images/projectimages/als1.jpg">
+                            </div>
+                            <div class="mySlides">
+                                <div class="pictext">more text</div>
+                                <img src="assets/images/projectimages/als2.jpg">
+                            </div>
+                            <div class="mySlides">
+                                <div class="pictext">another text</div>
+                                <img src="assets/images/projectimages/als3.jpg">
+                            </div>
+                            <div class="mySlides">
+                                <div class="pictext">different words</div>
+                                <img src="assets/images/projectimages/als4.jpg">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                </div>
+        </div>
+        <div class="col-md-6 project-details">
+            <img src="assets/images/projectimages/als1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                            <div class="mySlides">
+                                <div class="pictext">text</div>
+                                <img src="assets/images/projectimages/als1.jpg">
+                            </div>
+                            <div class="mySlides">
+                                <div class="pictext">more text</div>
+                                <img src="assets/images/projectimages/als2.jpg">
+                            </div>
+                            <div class="mySlides">
+                                <div class="pictext">another text</div>
+                                <img src="assets/images/projectimages/als3.jpg">
+                            </div>
+                            <div class="mySlides">
+                                <div class="pictext">different words</div>
+                                <img src="assets/images/projectimages/als4.jpg">
+                            </div>
+                            
+                        </div>
+                </div>
 
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">text</div>
-      <img src="assets/images/projectimages/als1.jpg" style="width:100%">
+        </div>
     </div>
-
-    <div class="mySlides">
-      <div class="numbertext">more text</div>
-      <img src="assets/images/projectimages/als2.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">another text</div>
-      <img src="assets/images/projectimages/als3.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">different words</div>
-      <img src="assets/images/projectimages/als4.jpg" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div>
-</div>
-
  <!--footer-->
     <footer>
         <div class="row no-gutters footer">
